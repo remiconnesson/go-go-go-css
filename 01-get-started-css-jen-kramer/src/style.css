@@ -27,3 +27,30 @@ a {
 a:hover {
   color: var(--poseidon-lighter);
 }
+
+/* intro styles */
+
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+}
+
+#intro .name span {
+  font-family: var(--title-font);
+  font-size: 4rem;
+  color: var(--white);
+  display: block;
+}
+
+#intro h2 {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: normal;
+}
