@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap');
+
 /* source : POSEIDON : https://adobe.ly/2JoZzyd */
 :root {
   --poseidon-darkest: #012030;
@@ -8,14 +10,18 @@
   --white: #f7f8fa;
   --black: #171321;
   --font-size: 1.3rem;
+  --title-font: 'Barlow Condensed', sans-serif;
+  --parag-font: 'Montserrat', sans-serif;
 
   background: var(--poseidon-darkest);
 }
 
 h2 {
   color: var(--poseidon-darker);
+  font-family: var(--title-font);
 }
 
 p {
   color: var(--poseidon-midtone);
+  font-family: var(--parag-font);
 }
