@@ -14,3 +14,16 @@
   --parag-font: 'Montserrat', sans-serif;
 }
 
+body {
+  font-family: var(--parag-font);
+  background-color: var(--black);
+  color: var(--poseidon-midtone);
+}
+
+a {
+  color: var(--poseidon-lightest);
+}
+
+a:hover {
+  color: var(--poseidon-lighter);
+}
