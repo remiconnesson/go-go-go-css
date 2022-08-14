@@ -5,6 +5,9 @@
   --poseidon-midtone: #45c4b0;
   --poseidon-lighter: #9aeba3;
   --poseidon-lightest: #dafdba;
+  --white: #f7f8fa;
+  --black: #171321;
+  --font-size: 1.3rem;
 
   background: var(--poseidon-darkest);
 }
