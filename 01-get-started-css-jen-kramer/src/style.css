@@ -12,16 +12,5 @@
   --font-size: 1.3rem;
   --title-font: 'Barlow Condensed', sans-serif;
   --parag-font: 'Montserrat', sans-serif;
-
-  background: var(--poseidon-darkest);
 }
 
-h2 {
-  color: var(--poseidon-darker);
-  font-family: var(--title-font);
-}
-
-p {
-  color: var(--poseidon-midtone);
-  font-family: var(--parag-font);
-}
