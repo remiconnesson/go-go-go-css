@@ -10,3 +10,4 @@ Website: https://gettingstartedwith.css.education/
 
 ## Tips
 - box sizing trick (border box model) : https://css-tricks.com/box-sizing/
+- the `*` selector has almost no specificity and is weaker than the an html element selector.
