@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     checker({
       eslint: {
-        lintCommand: 'eslint "./src/**/*.{ts,tsx}"', // for example, lint .ts & .tsx
+        lintCommand: 'eslint "./src/**/*.{ts,tsx,vue}"', // for example, lint .ts & .tsx
       },
     }),
   ],
