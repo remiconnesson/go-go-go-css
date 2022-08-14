@@ -1,3 +1,18 @@
-h1 {
-  color: red;
+/* source : POSEIDON : https://adobe.ly/2JoZzyd */
+:root {
+  --poseidon-darkest: #012030;
+  --poseidon-darker: #13678a;
+  --poseidon-midtone: #45c4b0;
+  --poseidon-lighter: #9aeba3;
+  --poseidon-lightest: #dafdba;
+
+  background: var(--poseidon-darkest);
+}
+
+h2 {
+  color: var(--poseidon-darker);
+}
+
+p {
+  color: var(--poseidon-midtone);
 }
