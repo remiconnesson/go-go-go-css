@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap");
 
 /* source : POSEIDON : https://adobe.ly/2JoZzyd */
 :root {
@@ -10,8 +10,8 @@
   --white: #f7f8fa;
   --black: #171321;
   --font-size: 1.3rem;
-  --title-font: 'Barlow Condensed', sans-serif;
-  --parag-font: 'Montserrat', sans-serif;
+  --title-font: "Barlow Condensed", sans-serif;
+  --parag-font: "Montserrat", sans-serif;
 }
 
 body {
@@ -106,7 +106,6 @@ nav a {
 nav [class*="fa-"] {
   font-size: 150%;
   color: var(--poseidon-midtone);
-   
 }
 
 nav a:hover,
@@ -126,9 +125,8 @@ nav h1 [class*="fa-"] {
 }
 
 .button:hover {
-  background-color: green ;
+  background-color: green;
 }
-
 
 @media (min-width: 850px) {
   nav {
@@ -141,4 +139,42 @@ nav h1 [class*="fa-"] {
     text-align: left;
     margin-right: auto;
   }
+}
+
+/* Footer */
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer ul [class*="fa-"] {
+  font-size: 250%;
+}
+
+footer li a {
+  display: block;
+  color: var(--poseidon-darker);
+}
+
+footer li a:hover [class*="fa-"] {
+  color: var(--poseidon-midtone);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--white);
+  color: var(--poseidon-darkest);
+}
+
+footer h3 {
+  margin: 1rem;
 }
