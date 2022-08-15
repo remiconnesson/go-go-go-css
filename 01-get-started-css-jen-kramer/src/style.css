@@ -69,3 +69,26 @@ a:hover {
   font-size: 2rem;
   color: var(--white);
 }
+
+/* nav bar */
+nav ul {
+  text-align: center;
+  margin: 10px;
+  padding: 0 0 3rem 0;
+}
+
+nav ul li:first-child {
+  display: block;
+}
+
+nav ul li {
+  font-family: var(--title-font);
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  font-size: 80%;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
