@@ -118,5 +118,27 @@ nav h1 [class*="fa-"] {
   font-size: 100%;
 }
 
+.button {
+  padding-top: 6px;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: green ;
+}
 
 
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
