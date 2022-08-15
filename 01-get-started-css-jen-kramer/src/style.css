@@ -76,6 +76,11 @@ a:hover {
   margin: 1rem auto;
 }
 
+#contact .button {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /* nav bar */
 nav {
   font-family: var(--title-font);
