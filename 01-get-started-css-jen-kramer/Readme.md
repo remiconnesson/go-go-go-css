@@ -27,3 +27,4 @@ The 20/80 rule of FlexBox layout and nav bars: learn what this properties do:
 - Rename `<i>` tag to `<span>`.
 - to hide the icon from screen reader use `aria-hidden="true"` to the icon and `class="sr-only"` to make make the text appear only to screen readers. Is this for all, or just for `fontawesome`?
 - use `[class*="fa-"]` attribute selector that looks for classes that contains `fa-` 
+- use the `small` html tag for fine prints, disclaimer etc.. (inside a `p`) 
