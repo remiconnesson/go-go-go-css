@@ -59,17 +59,21 @@ a:hover {
 
 /* contact section */
 #contact {
-  width: 400px;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
-  /*background: var(--poseidon-darkest);
-   */
+  padding: 3rem 1rem;
+  background: var(--poseidon-darkest);
+  
 }
 
 #contact h2 {
   font-size: 2rem;
   color: var(--white);
+}
+
+#contact p {
+  max-width: 400px;
+  margin: 1rem auto;
 }
 
 /* nav bar */
