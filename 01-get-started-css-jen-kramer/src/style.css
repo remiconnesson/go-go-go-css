@@ -103,9 +103,20 @@ nav a {
   display: block;
 }
 
-nav a:hover{
-  color: var(--poseidon--lighter);
-  
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--poseidon-midtone);
+   
 }
+
+nav a:hover,
+nav a:hover [class*="fa-"] {
+  color: var(--poseidon-lightest);
+}
+
+nav h1 [class*="fa-"] {
+  font-size: 100%;
+}
+
 
 
