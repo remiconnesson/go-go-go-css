@@ -54,3 +54,18 @@ a:hover {
   font-size: 2rem;
   font-weight: normal;
 }
+
+/* contact section */
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+  /*background: var(--poseidon-darkest);
+   */
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: var(--white);
+}
